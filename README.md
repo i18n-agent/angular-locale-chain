@@ -367,6 +367,16 @@ Compatible with Angular 14+ (both NgModule and standalone component patterns).
 - PRs welcome, especially for adding new locale fallback chains.
 - Run `npm test` before submitting.
 
+## Example
+
+A minimal Angular + Transloco example app is included in the [`example/`](./example/) directory. It demonstrates the locale chain resolving three keys for `pt-BR`, showing fallback from `pt-BR -> pt -> en`.
+
+```bash
+cd example && pnpm install && pnpm start
+```
+
+See [`example/README.md`](./example/README.md) for full setup instructions.
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file.
